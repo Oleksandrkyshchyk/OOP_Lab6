@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq; // Потрібно для деяких функцій List<T>, які ми залишимо
+using System.Linq;
 
-// Простір імен залишається OOP_Lab6
 namespace OOP_Lab6
 {
     class Program
@@ -92,7 +91,6 @@ namespace OOP_Lab6
                 return;
             }
 
-            // Додавання вручну (Залишаємо в Program.cs, оскільки це I/O)
             Console.Write("Ім’я персонажа: ");
             string name = Console.ReadLine();
 
@@ -402,4 +400,5 @@ namespace OOP_Lab6
         }
 
     }
+
 }
